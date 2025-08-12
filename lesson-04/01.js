@@ -17,7 +17,7 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 function includesElement(array, element) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === element) {
-      return true; // нашли — сразу выходим из функции
+      return true; // нашли — разу выходим из функции
     }
   }
   return false; // прошли весь массив и не нашли
